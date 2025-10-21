@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #25395f, #5268a5);
+  color: #fff;
+  margin: 0;
+}
+
+header {
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d2dbe7;
+  font-weight: bold;
+}
+
+section.team-intro ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.featured-projects, .profile, .recent-work {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 700px;
+  background: rgba(75, 90, 129, 0.25);
+  border-radius: 12px;
+}
+
+.project-card {
+  background: #273353;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #222f49;
+}
